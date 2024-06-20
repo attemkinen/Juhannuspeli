@@ -1,16 +1,18 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, onValue, remove, push,set } from "firebase/database";
 
+
+
 // Firebase-konfiguraatiotiedot
 const firebaseConfig = {
-  apiKey: "AIzaSyAa9tjLllGOK_kOpNJ7YCmce98Ez_RMatY",
-  authDomain: "juhannus-1a551.firebaseapp.com",
-  databaseURL: "https://juhannus-1a551-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "juhannus-1a551",
-  storageBucket: "juhannus-1a551.appspot.com",
-  messagingSenderId: "941786533998",
-  appId: "1:941786533998:web:8649ca4d2449d74f62d67f",
-  measurementId: "G-S21CXZ2BBP"
+  apiKey: process.env.API_KEY,
+  authDomain: process.env.AUTH_DOMAIN,
+  databaseURL: process.env.DATABASE_URL,
+  projectId: process.env.PROJECT_ID,
+  storageBucket: process.env.STORAGE_BUCKET,
+  messagingSenderId: process.env.MESSAGING_SENDER_ID,
+  appId: process.env.APP_ID,
+  measurementId: process.env.MEASUREMENT_ID,
 };
 
 // Alustetaan Firebase
