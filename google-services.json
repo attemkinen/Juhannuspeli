@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "941786533998",
+    "project_id": "juhannus-1a551",
+    "storage_bucket": "juhannus-1a551.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941786533998:android:c38a2c68bbf283a162d67f",
+        "android_client_info": {
+          "package_name": "com.yourvompany.juhannuspeli"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD77MrmvwEmwUlCbnaCD78KQvS4DBgImss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

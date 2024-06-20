@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Juhannuspeli",
+    "slug": "juhannuspeli",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourvompany.juhannuspeli",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "1:941786533998:ios:b96b4307a576a1db62d67f"
+        }
+      }
+    },
+    "android": {
+      "package": "com.yourvompany.juhannuspeli",
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyD77MrmvwEmwUlCbnaCD78KQvS4DBgImss"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
