@@ -88,20 +88,22 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: "#E6EE9C"
+    backgroundColor: "#1A237E" // Dark blue background
   },
   label: {
     fontSize: 18,
     marginBottom: 10,
+    color: '#FFFFFF' // White text color
   },
   input: {
     height: 40,
-    borderColor: 'gray',
+    borderColor: '#3949AB', // Lighter blue for borders
     borderWidth: 1,
     marginBottom: 20,
     paddingHorizontal: 10,
     borderRadius: 10,
-    backgroundColor: '#E6EE9C',
+    backgroundColor: '#3F51B5', // Blue background for inputs
+    color: '#FFFFFF' // White text color for inputs
   },
   buttonContainer: {
     flexDirection: 'row',
@@ -109,9 +111,9 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   addButton: {
-    backgroundColor: 'green',
+    backgroundColor: '#3949AB', // Blue button color
   },
   shuffleButton: {
-    backgroundColor: 'blue',
+    backgroundColor: '#1E88E5', // Another shade of blue for the shuffle button
   },
 });

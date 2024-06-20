@@ -162,7 +162,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: "#E6EE9C",
+    backgroundColor: "#1A237E", // Dark blue background
   },
   inlineForm: {
     flexDirection: "row",
@@ -170,15 +170,16 @@ const styles = StyleSheet.create({
   },
   input: {
     height: 40,
-    borderColor: "gray",
+    borderColor: "#3949AB", // Lighter blue for borders
     borderWidth: 1,
     paddingHorizontal: 10,
     marginRight: 10,
     borderRadius: 10,
-    backgroundColor: "rgba(255, 255, 255, 0.8)",
+    backgroundColor: "#3F51B5", // Blue background for inputs
+    color: '#FFFFFF' // White text color for inputs
   },
   saveButton: {
-    backgroundColor: "blue",
+    backgroundColor: "#1E88E5", // Blue button color
   },
   pointsContainer: {
     flexDirection: "row",
@@ -187,13 +188,13 @@ const styles = StyleSheet.create({
     margin: 15,
   },
   pointsButton1: {
-    backgroundColor: "green",
+    backgroundColor: "#3949AB", // Blue color
   },
   pointsButton2: {
-    backgroundColor: "orange",
+    backgroundColor: "#1E88E5", // Another shade of blue
   },
   pointsButton3: {
-    backgroundColor: "purple",
+    backgroundColor: "#1976D2", // Yet another shade of blue
   },
   subtractButton: {
     backgroundColor: "red",
@@ -202,6 +203,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     fontSize: 16,
     marginTop: 10,
+    color: '#FFFFFF' // White text color
   },
   minusPointContainer: {
     flexDirection: "row",
